@@ -1,0 +1,31 @@
+Brutessh by laramies
+www.edge-security.com
+laramies2k@yahoo.com.ar
+----------------------
+
+What is?
+--------
+
+Brutessh is a program that uses the paramiko ssh library, to launch bruteforce passwords attacks to the sshd service.
+The tools is multithreading and uses a dictionary for the passwords.
+It's a really simple tool, most of the work is thanks to paramiko library.
+
+How to:
+-------
+
+It has very few options:
+
+python brutessh.py -h targethost -u user -d passwordict
+
+And you can set the number of threads with the -t parameter, by default it has 12 threads, 
+you could play with the number, but i think it's ok as it is.
+
+Dependencies:
+------------
+You need to have installed the Crypto module for python, paramiko need it.
+
+For example, Debian: python-crypto
+
+Cheers for Trompeti, darkraver, mandingo, mitr3in, al3x,pluf and all s21sec crew ;)
+
+Enjoy...
